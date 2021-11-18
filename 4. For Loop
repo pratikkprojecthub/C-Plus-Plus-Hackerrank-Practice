@@ -1,0 +1,28 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    // Complete the code.
+    string a[] = { "", "one ", "two ", "three ", "four ", 
+                 "five ", "six ", "seven ", "eight ", 
+                 "nine "
+               }; 
+
+    int q,p;
+    cin>>q>>p;
+    for(int j=q;j<=p;j++){
+        if(j<=9){
+            cout<<a[j]<<endl;
+        }
+        else if(j%2==0){
+            cout<<"even"<<endl;
+        }
+        else {
+            cout<<"odd"<<endl;
+        }
+    }           
+
+
+    return 0;
+}
