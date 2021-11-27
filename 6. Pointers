@@ -2,6 +2,8 @@
 
 void update(int *a,int *b) {
     // Complete this function
+     
+// Pointers
 int t = *a;   
     *a = *a + *b;
     *b = t - *b;
