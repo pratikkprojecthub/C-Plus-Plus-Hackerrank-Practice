@@ -14,5 +14,6 @@ scanf("%d %ld  %c %f %lf",&a,&b,&d,&e,&f);
 printf("%d\n%ld\n%c\n%f\n%lf",a,b,d,e,f);
 return 0;
 }
-
+// done
+// 3. Basic Data Types Easy
 
