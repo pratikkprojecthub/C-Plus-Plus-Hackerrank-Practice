@@ -2,6 +2,8 @@
 #include <cstdio>
 using namespace std;
 
+// program Starts
+
 int main() {
     int apple;
     cin >> apple;
@@ -38,3 +40,6 @@ int main() {
 
     return 0;
 }
+
+
+// Program ends
