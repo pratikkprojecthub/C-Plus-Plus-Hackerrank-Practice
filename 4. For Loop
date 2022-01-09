@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
     // Complete the code.
+    // For Loop C++14 Problem 4 Easy
     string a[] = { "", "one ", "two ", "three ", "four ", 
                  "five ", "six ", "seven ", "eight ", 
                  "nine "
