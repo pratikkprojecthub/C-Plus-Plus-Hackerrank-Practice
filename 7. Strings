@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 
+// start of string
 int main() 
 {
     string s1,s2,s3;
@@ -34,6 +35,7 @@ int main()
     return 0;
 }
 
+// end of string challenge
 
 
 
