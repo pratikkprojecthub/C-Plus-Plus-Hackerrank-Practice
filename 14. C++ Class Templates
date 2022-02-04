@@ -8,6 +8,8 @@ using namespace std;
 #define cin ios_base::sync_with_stdio(false);cin.tie(NULL); cin
 /*Write the class AddElements here*/
 
+// start of the code
+
 // ============================C++ CLASS TEMPLATES STARTS================================
 template <class T>
 class AddElements{
