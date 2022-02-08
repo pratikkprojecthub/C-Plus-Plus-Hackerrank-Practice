@@ -5,6 +5,7 @@
 #include <algorithm>
 using namespace std;
 
+// start of the code
 
 class Triangle{
     public:
