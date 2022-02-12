@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
+// start of the code 
 
 // start of string
 int main() 
