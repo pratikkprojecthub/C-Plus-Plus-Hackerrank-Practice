@@ -1,0 +1,39 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <set>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
+    int b,temp,a;
+    scanf("%d",&a);
+    set<int> s;
+    while(a--) {
+        scanf("%d %d",&b,&temp);
+        switch(b) {
+            case 1:
+                s.insert(temp);
+                break;
+            case 2:
+                s.erase(temp);
+                break;
+            case 3:
+                if (s.find(temp)!=s.end())
+                    cout << "Yes"<<endl;
+                else
+                    cout <<"No"<<endl;
+                break;
+            default:
+                cout<<"invalid switch value: "<<b<<endl;
+                
+        }
+    }
+    return 0;
+}
+
+
+
