@@ -2,6 +2,7 @@
 #include <sstream>
 using namespace std;
 
+// start of the code
 /*
 Enter code for class Student here.
 Read statement for specification.
