@@ -9,7 +9,8 @@ using namespace std;
 /*Write the class AddElements here*/
 
 // start of the code
-// start
+// start of the code
+// C++ Problem Easy
 // ============================C++ CLASS TEMPLATES STARTS================================
 template <class T>
 class AddElements{
@@ -63,3 +64,5 @@ int main () {
   }
   return 0;
 }
+// C++ Problem Easy 
+// end
